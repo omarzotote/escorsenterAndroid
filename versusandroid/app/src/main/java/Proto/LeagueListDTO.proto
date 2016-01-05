@@ -1,0 +1,10 @@
+option java_outer_classname="ProtoLeagueListDTO";
+package es.encalient;
+
+import "LeagueDTO.proto";
+
+message LeagueListDTO{
+	repeated LeagueDTO items = 1;
+	optional int32 PageNumber = 2;
+	optional int32 PageTotal = 3;
+}

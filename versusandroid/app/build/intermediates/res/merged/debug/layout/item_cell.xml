@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        />
+
+
+    <TextView android:id="@+id/itemTitle"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:text="Nombre del equipo"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:textColor="@color/primaryColor" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:background="@drawable/next"
+        android:layout_gravity="center"/>
+
+</LinearLayout><!-- From: file:/C:/Users/EnCalientes/Documents/versusandroid/app/src/main/res/layout/item_cell.xml -->

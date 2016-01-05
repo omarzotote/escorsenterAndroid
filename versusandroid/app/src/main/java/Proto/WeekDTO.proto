@@ -1,0 +1,14 @@
+option java_outer_classname="ProtoWeekDTO";
+package es.encalient;
+
+import "MatchDTO.proto";
+
+message WeekDTO{
+	optional int64 Id = 1;
+	optional int64 Season = 2;
+	optional string Title = 3;
+	optional string Description = 4;
+	optional string DateFrom = 5;
+	optional string DateTo = 6;
+	repeated MatchDTO matches = 7;
+}

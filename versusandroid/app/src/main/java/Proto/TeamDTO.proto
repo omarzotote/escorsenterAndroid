@@ -1,0 +1,9 @@
+option java_outer_classname="ProtoTeamDTO";
+package es.encalient;
+
+message TeamDTO{
+	optional int64 Id = 1;
+	optional string Name = 2;
+	optional string Description = 16;
+	optional string Logo = 17;
+}

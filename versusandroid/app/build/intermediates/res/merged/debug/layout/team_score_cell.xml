@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="12">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryColor"
+        android:layout_weight="4"
+        android:id="@+id/teamScoreName"
+        android:text="Equipo"
+        android:textSize="14sp"
+        android:gravity="right"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accentColor"
+        android:layout_weight="1"
+        android:id="@+id/teamScorePJ"
+        android:text="0"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accentColor"
+        android:layout_weight="1"
+        android:id="@+id/teamScoreG"
+        android:text="0"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accentColor"
+        android:layout_weight="1"
+        android:id="@+id/teamScoreE"
+        android:text="0"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accentColor"
+        android:layout_weight="1"
+        android:id="@+id/teamScoreP"
+        android:text="0"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accentColor"
+        android:layout_weight="1"
+        android:id="@+id/teamScoreGF"
+        android:text="0"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accentColor"
+        android:layout_weight="1"
+        android:id="@+id/teamScoreGC"
+        android:text="0"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accentColor"
+        android:layout_weight="1"
+        android:id="@+id/teamScoreDif"
+        android:text="0"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accentColor"
+        android:layout_weight="1"
+        android:id="@+id/teamScorePts"
+        android:text="0"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+
+</LinearLayout><!-- From: file:/C:/Users/EnCalientes/Documents/versusandroid/app/src/main/res/layout/team_score_cell.xml -->

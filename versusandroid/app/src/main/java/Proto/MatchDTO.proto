@@ -1,0 +1,20 @@
+option java_outer_classname="ProtoMatchDTO";
+package es.encalient;
+
+import "FieldDTO.proto";
+import "TeamDTO.proto";
+
+message MatchDTO{
+	optional int64 Id = 1;
+	optional string Date = 2;
+	optional FieldDTO Field = 3;
+	optional string Details = 19;
+	optional TeamDTO Team1 = 4;
+	optional int64 ScoreTeam1 = 5;
+	optional int64 ScoreExtraTimeTeam1 = 20;
+	optional TeamDTO Team2 = 6;
+	optional int64 ScoreTeam2 = 7;
+	optional int64 ScoreExtraTimeTeam2 = 22;	
+	optional bool Finished = 8;
+	optional bool Forfeit = 9;
+}

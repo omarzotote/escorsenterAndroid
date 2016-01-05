@@ -1,0 +1,9 @@
+option java_outer_classname="ProtoNotificationDTO";
+package es.encalient;
+
+message NotificationDTO{
+	optional int64 Id = 1;
+	optional string Title = 2;
+	optional string Content = 3;
+	optional string Date = 4;
+}

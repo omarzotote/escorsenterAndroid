@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Versus</string>
+
+
+    <string name="title_section1">Ligas</string>
+    <string name="title_section2">Equipos</string>
+    <string name="title_section3">Favoritos</string>
+
+    <string name="title_league_section1">Rol</string>
+    <string name="title_league_section2">Resultados</string>
+    <string name="title_league_section3">Clasificación</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Opciones</string>
+
+    <string name="bottom_menu1">Mensajes</string>
+    <string name="bottom_menu2">Explorar</string>
+    <string name="bottom_menu3">Favoritos</string>
+    <string name="bottom_menu4">Notificaciones</string>
+    <string name="bottom_menu5">Favoritos</string>
+
+    <string name="title_activity_main_Exp">Explorar</string>
+    <string name="title_activity_main_Fav">Favoritos</string>
+    <string name="title_activity_main_Msj">Mensajes</string>
+
+    <string name="title_activity_league_Lig">Liga</string>
+    <string name="title_activity_team_Tea">Equipo</string>
+    <!--Hints Strings -->
+    <string name="search">Buscar</string>
+    <string name="addfav">Añadir a Favoritos</string>
+    <string name="iniciar">Iniciar</string>
+
+    <string name="action_example">Example action</string>
+    <!--Strings for FavoritesActivity-->
+    <string name="title_activity_favorites">Favoritos</string>
+
+    <string name="add_favorites">Añadir a favoritos</string>
+    <string name="quit_favorites">Quitar de favoritos</string>
+    <!-- Strings for MainActivity Tabs -->
+    <string-array name="MainActivityTabs">
+        <item>Ligas</item>
+        <item>Equipos</item>
+    </string-array>
+    <!--Strings for NotificationsActivity-->
+    <string name="mark_as_read">Marcar como leída</string>
+    <string name="mark_as_not_read">Marcar como no leída</string>
+    <string name="add_to_calendar">Añadir a calendario</string>
+    <string name="read_notification_text">Leída</string>
+    <string name="new_notification_text">Nueva</string>
+
+    <!-- Why the fuck do we need this ?-->
+    <string name="hello_blank_fragment">adskjakldj</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="no_internet_connection">No tienes internet :(</string>
+    <string name="add_fav">Añadir a Favoritos</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+</resources>

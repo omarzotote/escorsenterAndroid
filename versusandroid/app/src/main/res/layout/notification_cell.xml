@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:id="@+id/notification_cell_list_view">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:text="@string/new_notification_text"
+            android:textColor="@color/primaryColor"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:id="@+id/newOrRead"
+            />
+        <View
+            android:id="@+id/myRectangleView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/new_notification"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp">
+
+        <TextView android:id="@+id/notificationTitle" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#276a81"
+            />
+
+        <TextView android:id="@+id/notificationDescription" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#276a81" />
+
+        <LinearLayout
+            android:layout_below="@+id/notificationDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:paddingRight="8dp"
+                android:background="@drawable/read_button"
+                android:text="@string/mark_as_read"
+                android:textColor="@color/accentColor"
+                android:fontFamily="sans-serif-light"
+                android:textSize="@dimen/abc_text_size_small_material"
+                android:id="@+id/markAsRead"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:background="@color/accentColor"
+                android:text="@string/add_to_calendar"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-light"
+                android:textSize="@dimen/abc_text_size_small_material"
+                android:textAllCaps="false"
+                android:id="@+id/addToCalendar"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

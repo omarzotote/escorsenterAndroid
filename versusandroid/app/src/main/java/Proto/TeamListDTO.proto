@@ -1,0 +1,10 @@
+option java_outer_classname="ProtoTeamListDTO";
+package es.encalient;
+
+import "TeamDTO.proto";
+
+message TeamListDTO{
+	repeated TeamDTO items = 1;
+	required int32 PageNumber = 2;
+	required int32 PageTotal = 3;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:name="android:background">#D9AD1D</item>
+</selector><!-- From: file:/C:/Users/EnCalientes/Documents/versusandroid/app/src/main/res/drawable/selected.xml -->

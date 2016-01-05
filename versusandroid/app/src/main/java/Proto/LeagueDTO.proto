@@ -1,0 +1,13 @@
+option java_outer_classname="ProtoLeagueDTO";
+package es.encalient;
+
+import "TeamDTO.proto";
+
+message LeagueDTO{
+	optional int64 Id = 1;
+	optional string Name = 2;
+	optional int32 Region = 3; //Either state or region
+	repeated TeamDTO teams = 4;
+	optional string Description = 16;
+	optional string Logo = 17;
+}

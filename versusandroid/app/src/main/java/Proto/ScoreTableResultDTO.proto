@@ -1,0 +1,18 @@
+option java_outer_classname="ProtoScoreTableResultDTO";
+package es.encalient;
+
+import "TeamDTO.proto";
+
+message ScoreTableResultDTO{
+	optional TeamDTO Team = 1;
+	optional int64 GamesPlayed = 2;
+	optional int64 GamesWined = 3;
+	optional int64 GamesDrawn = 4;
+	optional int64 GamesLost = 5;
+	optional int64 ScoreFavor = 6;
+	optional int64 ScoreAgainst = 7;
+	optional int64 ScoreDifference = 8;
+	optional int64 Points = 9;
+	optional int64 Position = 10; 
+	optional string League = 11;
+}

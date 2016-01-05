@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="encalient.es.scorecenter.NotificationsActivity"
+    android:baselineAligned="false"
+    android:id="@+id/notificationRootView"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/app_bar"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/notifactionSwipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:paddingBottom="@dimen/activity_padding">
+
+        <ListView
+            android:id="@+id/notificationList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/EnCalientes/Documents/versusandroid/app/src/main/res/layout/activity_notifications.xml -->

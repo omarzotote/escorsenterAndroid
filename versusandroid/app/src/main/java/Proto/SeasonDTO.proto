@@ -1,0 +1,16 @@
+option java_outer_classname="ProtoSeasonDTO";
+package es.encalient;
+
+import "ScoreTableResultDTO.proto";
+import "WeekDTO.proto";
+
+message SeasonDTO{
+	optional int64 Id = 1;
+	optional int64 League = 2;
+	optional string Title = 3;
+	repeated ScoreTableResultDTO ScoreTableResult = 4;
+	repeated WeekDTO Weeks = 5;
+	optional string Description = 16;
+	optional string DateFrom = 17;
+	optional string DateTo = 18;
+}

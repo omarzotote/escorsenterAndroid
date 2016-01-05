@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="encalient.es.scorecenter.NotificationsActivity">
+
+
+    <item android:id="@+id/explorar"
+        android:title="@string/iniciar"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@drawable/icon2white"/>
+
+    <item android:id="@+id/favoritos"
+        android:title="@string/favoritos"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@drawable/icon3white"/>
+
+
+
+</menu>
